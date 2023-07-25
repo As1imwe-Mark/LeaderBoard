@@ -41,7 +41,7 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### LiveDemo
-[Live Demo] You can see the live Demo of the website here  
+ 
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -65,7 +65,7 @@ Install this project with: - npm install to install local dependencies - npm run
 To run the project : npm start
 
 ### Project_presentation
-[Project Presentation] You can see the live presentation of the key concepts taken into account while creating this project here: 
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] **[Add some classes and ES6 Javascript to make it more responsive.]**
