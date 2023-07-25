@@ -1,9 +1,8 @@
 import './style.css';
-import { getInput } from './Modules/input.js';
-import { ScoreBoard } from './Modules/board';
+import getInput from './Modules/input';
+import ScoreBoard from './Modules/board';
 
-
-let Scores=[];
+const Scores = [];
 
 getInput(Scores);
-document.addEventListener('DOMContentLoaded',ScoreBoard(Scores))
+document.addEventListener('DOMContentLoaded', ScoreBoard(Scores));
