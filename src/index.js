@@ -1,12 +1,8 @@
-import _ from 'lodash';
 import './style.css';
+import getInput from './Modules/input';
+import ScoreBoard from './Modules/board';
 
-function component() {
-  const element = document.createElement('div');
+const Scores = [];
 
-  // Lodash is now imported
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  return element;
-}
-
-document.body.appendChild(component());
+getInput(Scores);
+document.addEventListener('DOMContentLoaded', ScoreBoard(Scores));
