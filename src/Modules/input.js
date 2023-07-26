@@ -7,5 +7,5 @@ const getInput = async () => {
 
     body: JSON.stringify({ score: +score, user: name }),
   });
-}
+};
 export default getInput;

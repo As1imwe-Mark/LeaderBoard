@@ -12,5 +12,5 @@ const ScoreBoard = async () => {
       });
       board.innerHTML = boardHtml;
     });
-}
+};
 export default ScoreBoard;
