@@ -1,4 +1,4 @@
-async function getInput() {
+const getInput = async () => {
   const name = document.querySelector('#name').value.trim();
   const score = document.querySelector('#score').value.trim();
   await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/:OsIdfjVZGF6rZmZWBTi6/scores/', {

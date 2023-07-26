@@ -1,4 +1,4 @@
-async function ScoreBoard() {
+const ScoreBoard = async () => {
   await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/:OsIdfjVZGF6rZmZWBTi6/scores/')
     .then((res) => res.json())
     .then((data) => {
